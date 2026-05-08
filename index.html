@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anshul Chhikara — Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Custom Cursor -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- Background Glow Blobs -->
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+
+  <!-- ── NAVIGATION ── -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">AC<span>.</span></a>
+    <div class="nav-links">
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#achievements">Achievements</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="hero-eyebrow">
+        <span class="eyebrow-line"></span>
+        <span class="eyebrow-text">Portfolio — 2024</span>
+      </div>
+
+      <h1 class="hero-name">
+        ANSHUL<br>
+        <span class="stroke">CHHIKARA</span>
+      </h1>
+
+      <p class="hero-title">
+        Computer Science Engineer &amp;
+        <span class="highlight">CS Undergrad @ Chandigarh University</span>
+      </p>
+
+      <p class="hero-summary">
+        Computer Science undergraduate with strong foundations in Data Structures &amp; Algorithms,
+        Operating Systems, and Computer Networks. Currently exploring
+        <strong style="color:var(--accent)">AI Agents &amp; LLM workflows</strong> — passionate
+        about building scalable applications and implementing efficient solutions.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects →</a>
+        <a href="mailto:chhikaraanshul1@gmail.com" class="btn-ghost">Get in Touch</a>
+      </div>
+
+      <div class="hero-contact">
+        <a href="mailto:chhikaraanshul1@gmail.com" class="contact-item">
+          <span class="contact-dot"></span>
+          chhikaraanshul1@gmail.com
+        </a>
+        <a href="tel:+919467521908" class="contact-item">
+          <span class="contact-dot"></span>
+          +91 94675 21908
+        </a>
+        <a href="https://www.linkedin.com/in/anshulchhikara" target="_blank" class="contact-item">
+          <span class="contact-dot"></span>
+          LinkedIn
+        </a>
+        <a href="https://github.com/Anshulchhikara" target="_blank" class="contact-item">
+          <span class="contact-dot"></span>
+          GitHub
+        </a>
+      </div>
+    </section>
+
+    <!-- ── SKILLS ── -->
+    <section id="skills">
+      <div class="reveal">
+        <div class="section-label">
+          <span class="label-num">01 /</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title">Skills &amp;<br>Technologies</h2>
+      </div>
+
+      <div class="skills-grid reveal" style="transition-delay: 0.1s">
+
+        <div class="skill-card">
+          <div class="skill-cat">Languages</div>
+          <div class="skill-tags">
+            <span class="tag">C++</span>
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">C</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-cat">Core Subjects</div>
+          <div class="skill-tags">
+            <span class="tag">DSA</span>
+            <span class="tag">OS</span>
+            <span class="tag">Computer Networks</span>
+            <span class="tag">DBMS</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-cat">Technologies</div>
+          <div class="skill-tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-cat">Tools</div>
+          <div class="skill-tags">
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+            <span class="tag">VS Code</span>
+            <span class="tag">Matplotlib</span>
+          </div>
+        </div>
+
+        <!-- Learning Now Card -->
+        <div class="skill-card" style="border-color: rgba(124,111,255,0.25)">
+          <div class="skill-cat" style="color: var(--accent)">Learning Now ✦</div>
+          <div class="skill-tags">
+            <span class="tag" style="border-color: rgba(124,111,255,0.3); background: rgba(124,111,255,0.08)">AI Agents</span>
+            <span class="tag">LLMs</span>
+            <span class="tag">Agentic Workflows</span>
+            <span class="tag">Cloud Computing</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── PROJECTS ── -->
+    <section id="projects">
+      <div class="reveal">
+        <div class="section-label">
+          <span class="label-num">02 /</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title">Featured<br>Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- Project 1: Sorting Visualization -->
+        <div class="project-card reveal" style="transition-delay: 0.1s" onmousemove="trackMouse(event, this)">
+          <div>
+            <div class="project-stack">
+              <span class="stack-badge">Python</span>
+              <span class="stack-badge">Matplotlib</span>
+            </div>
+            <h3 class="project-name">Sorting Visualization</h3>
+            <ul class="project-desc">
+              <li>Implemented multiple sorting algorithms (Bubble, Merge, Quick) with performance comparison.</li>
+              <li>Designed interactive visualization to demonstrate algorithm execution and time complexity.</li>
+              <li>Improved conceptual understanding of algorithm efficiency through graphical analysis.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://anshulchhikara.github.io/visualization-sorting-methods-in-python/" target="_blank" class="proj-link">Live Demo →</a>
+              <a href="https://github.com/Anshulchhikara" target="_blank" class="proj-link">GitHub →</a>
+            </div>
+          </div>
+          <div class="project-number">01</div>
+        </div>
+
+        <!-- Project 2: E-Commerce Website -->
+        <div class="project-card reveal" style="transition-delay: 0.2s" onmousemove="trackMouse(event, this)">
+          <div>
+            <div class="project-stack">
+              <span class="stack-badge">HTML</span>
+              <span class="stack-badge">CSS</span>
+              <span class="stack-badge">JavaScript</span>
+            </div>
+            <h3 class="project-name">E-Commerce Website</h3>
+            <ul class="project-desc">
+              <li>Developed responsive web application with product listing and shopping cart functionality.</li>
+              <li>Implemented dynamic user interface and client-side logic using JavaScript.</li>
+              <li>Simulated real-world e-commerce features to enhance usability and user experience.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Anshulchhikara" target="_blank" class="proj-link">GitHub →</a>
+            </div>
+          </div>
+          <div class="project-number">02</div>
+        </div>
+
+        <!-- Project 3: Chat Application -->
+        <div class="project-card reveal" style="transition-delay: 0.3s" onmousemove="trackMouse(event, this)">
+          <div>
+            <div class="project-stack">
+              <span class="stack-badge">Python</span>
+              <span class="stack-badge">Socket Programming</span>
+              <span class="stack-badge">TCP/IP</span>
+            </div>
+            <h3 class="project-name">Chat Application (Client-Server)</h3>
+            <ul class="project-desc">
+              <li>Developed real-time chat application using socket programming.</li>
+              <li>Implemented client-server architecture over TCP/IP for reliable communication.</li>
+              <li>Applied networking concepts such as data transmission and connection handling.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Anshulchhikara" target="_blank" class="proj-link">GitHub →</a>
+            </div>
+          </div>
+          <div class="project-number">03</div>
+        </div>
+
+        <!-- Project 4: AI Agents (Learning) -->
+        <div class="project-card reveal" style="transition-delay: 0.4s; border-color: rgba(124,111,255,0.25)" onmousemove="trackMouse(event, this)">
+          <div>
+            <div class="project-stack">
+              <span class="stack-badge" style="color: var(--accent); border-color: rgba(124,111,255,0.3); background: rgba(124,111,255,0.08)">✦ Learning</span>
+              <span class="stack-badge">AI Agents</span>
+              <span class="stack-badge">LLMs</span>
+            </div>
+            <h3 class="project-name" style="color: var(--accent)">AI Agents — In Progress</h3>
+            <ul class="project-desc">
+              <li>Actively learning AI agent frameworks and LLM-powered tool-use patterns.</li>
+              <li>Exploring agentic workflows that combine reasoning, memory, and action.</li>
+              <li>Goal: build intelligent automation projects combining system design with AI.</li>
+            </ul>
+            <div class="project-links">
+              <a href="https://github.com/Anshulchhikara" target="_blank" class="proj-link">Follow Progress →</a>
+            </div>
+          </div>
+          <div class="project-number" style="color: rgba(124,111,255,0.2)">04</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── EDUCATION ── -->
+    <section id="education">
+      <div class="reveal">
+        <div class="section-label">
+          <span class="label-num">03 /</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="edu-timeline reveal" style="transition-delay: 0.1s">
+
+        <div class="edu-item">
+          <div class="edu-period">2023 – 2027</div>
+          <div class="edu-degree">B.Tech — Computer Science &amp; Engineering</div>
+          <div class="edu-school">Chandigarh University</div>
+          <span class="edu-score">CGPA: 7.24</span>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-period">2022 – 2023</div>
+          <div class="edu-degree">Class XII (CBSE)</div>
+          <div class="edu-school">Raunaq Public School</div>
+          <span class="edu-score">83.2%</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── ACHIEVEMENTS ── -->
+    <section id="achievements">
+      <div class="reveal">
+        <div class="section-label">
+          <span class="label-num">04 /</span>
+          <span class="label-line"></span>
+        </div>
+        <h2 class="section-title">Achievements<br>&amp; Activities</h2>
+      </div>
+
+      <div class="achieve-grid reveal" style="transition-delay: 0.1s">
+
+        <div class="achieve-item">
+          <span class="achieve-icon">🏆</span>
+          <div class="achieve-text">
+            <strong>Student of the Month</strong>
+            April 2024 — Chandigarh University
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <span class="achieve-icon">🎖️</span>
+          <div class="achieve-text">
+            <strong>NCC 'A' Certificate</strong>
+            National Cadet Corps certified holder
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <span class="achieve-icon">🌱</span>
+          <div class="achieve-text">
+            <strong>NSS Member</strong>
+            Active member of the National Service Scheme
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <span class="achieve-icon">🚀</span>
+          <div class="achieve-text">
+            <strong>Sci-Fi Innovation Club</strong>
+            Active contributor and member
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <span class="achieve-icon">🤝</span>
+          <div class="achieve-text">
+            <strong>Rotary Club Recognition</strong>
+            Recognized for leadership and community involvement
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <span class="achieve-icon">💻</span>
+          <div class="achieve-text">
+            <strong>DSA Practice</strong>
+            Actively practicing on competitive coding platforms
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <div class="footer-left">
+      Anshul Chhikara — Sonipat, Haryana &nbsp;·&nbsp; Built with passion
+    </div>
+    <div class="footer-right">
+      <a href="mailto:chhikaraanshul1@gmail.com" class="footer-link">Email</a>
+      <a href="https://www.linkedin.com/in/anshulchhikara" target="_blank" class="footer-link">LinkedIn</a>
+      <a href="https://github.com/Anshulchhikara" target="_blank" class="footer-link">GitHub</a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+
+</body>
+</html>
