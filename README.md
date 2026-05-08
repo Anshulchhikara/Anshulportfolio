@@ -99,28 +99,6 @@ npm start
 
 ---
 
-## 📸 Screenshots
-
-Add screenshots inside the `assets` folder.
-
-Example:
-
-```md
-![Portfolio Screenshot](assets/portfolio.png)
-```
-
----
-
-## 🌍 Deployment
-
-This portfolio can be deployed using:
-
-- GitHub Pages
-- Vercel
-- Netlify
-
----
-
 ## ⭐ Support
 
 If you like this project, give it a ⭐ on GitHub.
