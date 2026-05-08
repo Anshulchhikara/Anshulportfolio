@@ -1,9 +1,8 @@
-````md id="u8x4qn"
 # 🌐 Anshul Chhikara — Portfolio Website
 
 A modern and responsive developer portfolio website built to showcase projects, skills, and work experience.
 
-🔗 Live Demo: https://anshulchhikara.github.io/Anshulportfolio/
+🔗 [Live Demo](https://anshulchhikara.github.io/Anshulportfolio/)
 
 ---
 
@@ -14,7 +13,9 @@ This repository contains the source code for my personal portfolio website.
 Thanks for checking it out!  
 If you have any questions or feedback, feel free to reach out.
 
-📧 Email: chhikaraanshul1@gmail.com
+📧 Email: [chhikaraanshul1@gmail.com](mailto:chhikaraanshul1@gmail.com)
+
+💻 GitHub: [Anshulchhikara](https://github.com/Anshulchhikara)
 
 ---
 
@@ -127,4 +128,3 @@ If you like this project, give it a ⭐ on GitHub.
 ---
 
 # Built with passion by Anshul Chhikara 🚀
-````
